@@ -224,7 +224,7 @@ function remove(input) {
         {
             name: "action",
             type: "list",
-            message: "In order to add an employee, an ID must be entered. View employees to get" +
+            message: "In order to remove an employee, the employee ID must be entered. View employees to get" +
                 " the employee ID. If you know the employee ID, select yes to continue.",
             choices: [promptQ.yes, promptQ.no]
         }
